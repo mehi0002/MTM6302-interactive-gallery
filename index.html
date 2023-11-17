@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Gallery</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main id="gallery">
+    <main>    
+        <h1>Interactive Gallery</h1>   
+
+        <div id="gallery" class="container">
+            <picture>
+                <source media="(min-width:650px)" srcset="images/desktop/portfolio-desktop-01.jpg">
+                <source media="(min-width:465px)" srcset="images/tablet/portfolio-tablet-01.jpg">
+                <img src="images/mobile/portfolio-mobile-01.jpg" alt="alt test">
+            </picture>
+
+            <picture>
+                <source media="(min-width:650px)" srcset="images/desktop/portfolio-desktop-02.jpg">
+                <source media="(min-width:465px)" srcset="images/tablet/portfolio-tablet-02.jpg">
+                <img src="images/mobile/portfolio-mobile-02.jpg" alt="alt test">
+            </picture>
+
+            <picture>
+                <source media="(min-width:650px)" srcset="images/desktop/portfolio-desktop-03.jpg">
+                <source media="(min-width:465px)" srcset="images/tablet/portfolio-tablet-03.jpg">
+                <img src="images/mobile/portfolio-mobile-03.jpg" alt="alt test">
+            </picture>
+
+            <picture>
+                <source media="(min-width:650px)" srcset="images/desktop/portfolio-desktop-04.jpg">
+                <source media="(min-width:465px)" srcset="images/tablet/portfolio-tablet-04.jpg">
+                <img src="images/mobile/portfolio-mobile-04.jpg" alt="alt test">
+            </picture>
+
+            <picture>
+                <source media="(min-width:650px)" srcset="images/desktop/portfolio-desktop-05.jpg">
+                <source media="(min-width:465px)" srcset="images/tablet/portfolio-tablet-05.jpg">
+                <img src="images/mobile/portfolio-mobile-05.jpg" alt="alt test">
+            </picture>
+        </div>
 
     </main>
 </body>
