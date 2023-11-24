@@ -100,6 +100,19 @@ const $gallery = document.getElementById('gallery')             // image gallery
 const $fullSize = document.getElementById('fullSize')           // the full sized view
 const fullSourceSet = $fullSize.children                        // screen dependant image source set
 
+{/* <picture>
+<img src="images/thumbnail/portfolio-thumbnail-01.jpg" alt="alt test" data-index="01" class="thumbnail">
+</picture> */}
+images.forEach(function(image){
+    
+    const newImage = document.createElement('img')
+    newImage.setAttribute('src',`images/thumbnail/portfolio-thumbnail-${image.index}.jpg`)
+    newImage.setAttribute('alt', image.alt)
+    newImage.setAttribute('data-index', image.index)
+
+    $gallery.appendChild(newImage)
+});
+
 /****** Viewing the high res version of an image ********/
 $gallery.addEventListener('click', function(e){
 

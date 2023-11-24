@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="flexWrapper">    
+    <main class="centered">    
         <h1>Interactive Gallery</h1>   
 
-        <div id="galleryContainer" class="flexWrapper">
+        <div id="galleryContainer" class="centered">
+
             <!-- Full Size Pop-up -->
             <picture id="fullSize" class="popUp hidden">
                 <source media="(min-width:650px)" srcset="images/desktop/portfolio-desktop-01.jpg">
@@ -18,28 +19,9 @@
                 <img src="images/mobile/portfolio-mobile-01.jpg" alt="alt test">
             </picture>
 
-            <div id="gallery" class="container flexWrapper">
-
+            <div id="gallery" class="container centered">
                 <!-- Thumbnails -->
-                <picture>
-                    <img src="images/mobile/portfolio-mobile-01.jpg" alt="alt test" data-index="01" class="thumbnail">
-                </picture>
-
-                <picture >
-                    <img data-index="02" src="images/mobile/portfolio-mobile-02.jpg" alt="alt test" class="thumbnail">
-                </picture>
-
-                <picture >
-                    <img data-index="03"src="images/mobile/portfolio-mobile-03.jpg" alt="alt test">
-                </picture>
-
-                <picture >
-                    <img data-index="04"src="images/mobile/portfolio-mobile-04.jpg" alt="alt test">
-                </picture>
-
-                <picture >
-                    <img data-index="05"src="images/mobile/portfolio-mobile-05.jpg" alt="alt test">
-                </picture>
+                
             </div>                                      <!-- Gallery ends -->
         </div>                                          <!-- Flex wrapper ends -->
 
