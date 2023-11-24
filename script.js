@@ -25,24 +25,9 @@ const images = [
         alt:    'Snow laden moss growing on an outcropping of rock.'
     },
     {
-        name:   'Winter Green #2',
-        index:  '06',
-        alt:    'Tiny plants growing in and around a fallen, weathered leaf and rocks. '
-    },
-    {
         name:   'Festival of Lights #1',
         index:  '07',
         alt:    'Trees lit up with christmas lights'
-    },
-    {
-        name:   'Festival of Lights #2',
-        index:  '08',
-        alt:    'Low angle shot of strings of indigo and white decorative lights forming a christmas tree.'
-    },
-    {
-        name:   'Florals',
-        index:  '09',
-        alt:    'Bright firey red flowers back lit by the sun, rising up out of green and yellow leaves.'
     },
     {
         name:   'Water Lily',
@@ -60,11 +45,6 @@ const images = [
         alt:    'A statue under a round stone roof held up by pillars in a misty, snow laden cemetery. The entire scene is cast in tones of blue.'
     },
     {
-        name:   'Blossums',
-        index:  '13',
-        alt:    'A branch of 3 small blossums, each consisting of 5 round white petals and light pink stamen.'
-    },
-    {
         name:   'Chimpmunk',
         index:  '14',
         alt:    'A shot from behind a bright yellow, 2 person, single engine plane. In the background, light is coming through the hanger doors. On the doors are are repeating grid of airplane silhouettes and the words "Friends of Flight". '
@@ -80,11 +60,6 @@ const images = [
         alt:    'A shot of a person from behind with a light blue coat and umbrella surrounded by trees and yellow fall leaves. They are mid spin, with their arms extended and coat billowing out.'
     },
     {
-        name:   'Uyghur Mosque',
-        index:  '17',
-        alt:    'Interior an old Christian church. The pews have been replaced with carpet featuring repeated arches in rows. In the background, a light blue flag with a white cresent moon and star hangs from the balcony.'
-    },
-    {
         name:   'Games We Play #1',
         index:  '18',
         alt:    'Ultra close up shot of a bubblegum pink 20 sided die with black numbers. The side with the number 1 is facing the camera.'
@@ -93,6 +68,11 @@ const images = [
         name:   'Games We Play #2',
         index:  '19',
         alt:    'Macro shot of a glass marble with a pattern of red blotches covering the surface. Light is shining through from behind, causing the marble light up in a way that is reminiscent of lava.'
+    },
+    {
+        name:   'Rasgar',
+        index:  '20',
+        alt:    'Close up of a man with dark clothes and short dark hair facing the camera as he adjusts his glasses. Behind him is an assortment of metal and wooden cemetery crosses on a green hill.'
     }
 ]
 
