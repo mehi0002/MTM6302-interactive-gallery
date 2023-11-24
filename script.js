@@ -88,6 +88,7 @@ images.forEach(function(image){
     const newImage = document.createElement('img')
     newImage.setAttribute('src',`images/thumbnail/portfolio-thumbnail-${image.index}.jpg`)
     newImage.setAttribute('alt', image.alt)
+    newImage.setAttribute('class', 'thumbnail')
     newImage.setAttribute('data-index', image.index)
 
     $gallery.appendChild(newImage)
